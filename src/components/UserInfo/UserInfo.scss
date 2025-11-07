@@ -1,1 +1,19 @@
-// add styles here
+.UserInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__name {
+    font-weight: bold;
+    color: #333;
+  }
+
+  &__email {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
