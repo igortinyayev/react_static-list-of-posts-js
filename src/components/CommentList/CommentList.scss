@@ -1,14 +1,4 @@
 .CommentList {
-  &__title {
-    margin: 0 0 10px;
-    font-size: 1.1em;
-    color: #333;
-    font-weight: bold;
-  }
-
-  &__no-comments {
-    margin: 0;
-    color: #999;
-    font-style: italic;
-  }
+  margin-top: 10px;
+  padding: 0;
 }

@@ -1,28 +1,13 @@
 .PostInfo {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
 
   &__title {
-    margin: 0 0 10px;
-    color: #333;
-    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
 
   &__body {
-    margin: 0 0 15px;
-    color: #666;
-    line-height: 1.5;
-  }
-
-  &__user {
-    margin-bottom: 15px;
-  }
-
-  &__comments {
-    border-top: 1px solid #eee;
-    padding-top: 15px;
+    margin-bottom: 10px;
   }
 }
